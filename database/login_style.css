@@ -1,0 +1,79 @@
+/* Step9 1/3 HTML/CSS 2.ログインフォーム */
+body {
+  background-color: #0f1827;
+}
+
+label,
+input,
+button,
+div {
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-form {
+  background-color: #202938;
+  margin: 20px auto;
+  padding: 20px 20px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.login-form-container {
+  justify-content: center;
+  margin: 20px;
+}
+
+.login-form-title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.login-form-input-item {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.login-form-input-item > input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-form-input-item > button {
+  background-color: #2463ec;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-signup-link {
+  color: #fff;
+}
+
+/* .login-signup-link > p {} */
+
+.login-signup-link > p > a {
+  color: #0099df;
+  font-weight: 600;
+  text-decoration: none;
+}
